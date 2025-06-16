@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookXpert.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d4c536079714a176d58bf1ca5796ed2500106ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+380e7d8ec184afac32fe91831c4369567423fdd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookXpert.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookXpert.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

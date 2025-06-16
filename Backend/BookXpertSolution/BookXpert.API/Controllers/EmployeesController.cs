@@ -2,6 +2,7 @@
 using BookXpert.DAL.Models;
 using DinkToPdf;
 using DinkToPdf.Contracts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookXpert.API.Controllers
@@ -15,7 +16,7 @@ namespace BookXpert.API.Controllers
 
         public EmployeesController(IEmployeeService employeeService, IConverter converter)
         {
-         _converter = converter;
+            _converter = converter;
             _employeeService = employeeService;
         }
 
@@ -126,8 +127,6 @@ namespace BookXpert.API.Controllers
             return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "EmployeeReport.xlsx");
         }
 
-
-
-
     }
+
 }
