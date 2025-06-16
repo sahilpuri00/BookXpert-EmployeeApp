@@ -1,0 +1,17 @@
+﻿# 🔧 Visual Studio
+.vs/
+*.user
+*.suo
+
+# 🔧 Build output
+bin/
+obj/
+
+# ⚛️ React / Vite
+node_modules/
+dist/
+.env
+
+# 🧪 Misc
+*.log
+*.db

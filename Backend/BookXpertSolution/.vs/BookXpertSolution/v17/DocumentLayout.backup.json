@@ -1,0 +1,977 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDD1FFFB-9A45-47C5-A0FA-7CFBA1076F0D}|Solution Items{CDD1FFFB-9A45-47C5-A0FA-7CFBA1076F0D}|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{CDD1FFFB-9A45-47C5-A0FA-7CFBA1076F0D}|Solution Items{CDD1FFFB-9A45-47C5-A0FA-7CFBA1076F0D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\bin\\Debug\\net8.0\\BookXpert.DAL.pdb||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.BLL\\bin\\Debug\\net8.0\\BookXpert.DAL.pdb||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Pomelo.EntityFrameworkCore.MySql.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\Pomelo.EntityFrameworkCore.MySql.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.Abstractions.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.Abstractions.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Caching.Memory.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Caching.Memory.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.Abstractions.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.Abstractions.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.Workspaces.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.Workspaces.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Bcl.AsyncInterfaces.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Bcl.AsyncInterfaces.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.CSharp.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.CSharp.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\it\\Microsoft.CodeAnalysis.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\it\\Microsoft.CodeAnalysis.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ExcelNumberFormat.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\ExcelNumberFormat.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\DocumentFormat.OpenXml.Framework.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\DocumentFormat.OpenXml.Framework.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\es\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\es\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\DinkToPdf.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\DinkToPdf.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\cs\\Microsoft.CodeAnalysis.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\cs\\Microsoft.CodeAnalysis.Workspaces.resources.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.runtimeconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.runtimeconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\obj\\Debug\\net8.0\\BookXpert.BLL.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookXpert.BLL\\obj\\Debug\\net8.0\\BookXpert.BLL.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\src\\assets\\react.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|solutionrelative:bookxpert.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA9FD02-201B-4222-A61E-C31E5C03DB3A}|BookXpert.BLL\\BookXpert.BLL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.bll\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA9FD02-201B-4222-A61E-C31E5C03DB3A}|BookXpert.BLL\\BookXpert.BLL.csproj|solutionrelative:bookxpert.bll\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA9FD02-201B-4222-A61E-C31E5C03DB3A}|BookXpert.BLL\\BookXpert.BLL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.bll\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA9FD02-201B-4222-A61E-C31E5C03DB3A}|BookXpert.BLL\\BookXpert.BLL.csproj|solutionrelative:bookxpert.bll\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.dal\\models\\employeesummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|solutionrelative:bookxpert.dal\\models\\employeesummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|solutionrelative:bookxpert.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.api\\customassemblyloadcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|solutionrelative:bookxpert.api\\customassemblyloadcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.api\\bookxpert.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|solutionrelative:bookxpert.api\\bookxpert.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|solutionrelative:bookxpert.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA9FD02-201B-4222-A61E-C31E5C03DB3A}|BookXpert.BLL\\BookXpert.BLL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.bll\\services\\stateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA9FD02-201B-4222-A61E-C31E5C03DB3A}|BookXpert.BLL\\BookXpert.BLL.csproj|solutionrelative:bookxpert.bll\\services\\stateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.api\\controllers\\statescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|solutionrelative:bookxpert.api\\controllers\\statescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA9FD02-201B-4222-A61E-C31E5C03DB3A}|BookXpert.BLL\\BookXpert.BLL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.bll\\interfaces\\istateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA9FD02-201B-4222-A61E-C31E5C03DB3A}|BookXpert.BLL\\BookXpert.BLL.csproj|solutionrelative:bookxpert.bll\\interfaces\\istateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.dal\\migrations\\20250612125700_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|solutionrelative:bookxpert.dal\\migrations\\20250612125700_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A3188B8-3B0A-4155-8CB8-8C5F21133015}|BookXpert.API\\BookXpert.API.csproj|solutionrelative:bookxpert.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA9FD02-201B-4222-A61E-C31E5C03DB3A}|BookXpert.BLL\\BookXpert.BLL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.bll\\bookxpert.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ABA9FD02-201B-4222-A61E-C31E5C03DB3A}|BookXpert.BLL\\BookXpert.BLL.csproj|solutionrelative:bookxpert.bll\\bookxpert.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|solutionrelative:bookxpert.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.dal\\bookxpert.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|solutionrelative:bookxpert.dal\\bookxpert.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|c:\\users\\sahil_puri\\documents\\repo\\bookxpert-employee\\bookxpert-employeeapp\\backend\\bookxpertsolution\\bookxpert.dal\\models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A653D92-B25F-4C46-BE2E-3EE750698376}|BookXpert.DAL\\BookXpert.DAL.csproj|solutionrelative:bookxpert.dal\\models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1924764005:0:{13143d73-808b-4a2f-bebb-ccbe9c93fe37}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-16T10:03:38.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookXpert.DAL.pdb",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\bin\\Debug\\net8.0\\BookXpert.DAL.pdb",
+              "RelativeDocumentMoniker": "BookXpert.BLL\\bin\\Debug\\net8.0\\BookXpert.DAL.pdb",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\bin\\Debug\\net8.0\\BookXpert.DAL.pdb",
+              "RelativeToolTip": "BookXpert.BLL\\bin\\Debug\\net8.0\\BookXpert.DAL.pdb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002276|",
+              "WhenOpened": "2025-06-16T10:00:12.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T10:00:07.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T10:00:06.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pomelo.EntityFrameworkCore.MySql.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Pomelo.EntityFrameworkCore.MySql.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\Pomelo.EntityFrameworkCore.MySql.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Pomelo.EntityFrameworkCore.MySql.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\Pomelo.EntityFrameworkCore.MySql.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T10:00:05.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T10:00:04.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Microsoft.Extensions.Logging.Abstractions.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.Abstractions.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.Abstractions.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.Abstractions.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.Abstractions.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T10:00:03.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\pl\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:55:26.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Microsoft.Extensions.Options.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:55:22.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Microsoft.Extensions.Caching.Memory.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Caching.Memory.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Caching.Memory.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Caching.Memory.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Extensions.Caching.Memory.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:55:21.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Microsoft.EntityFrameworkCore.Abstractions.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:55:10.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Microsoft.CodeAnalysis.Workspaces.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.Workspaces.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.Workspaces.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.Workspaces.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.Workspaces.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:55:09.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Microsoft.CodeAnalysis.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:55:08.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:55:06.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Microsoft.CodeAnalysis.CSharp.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.CodeAnalysis.CSharp.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:55:01.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Microsoft.Bcl.AsyncInterfaces.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Bcl.AsyncInterfaces.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Bcl.AsyncInterfaces.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Bcl.AsyncInterfaces.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\Microsoft.Bcl.AsyncInterfaces.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:55:00.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:58.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Microsoft.CodeAnalysis.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:57.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:51.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\ko\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:49.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:48.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Microsoft.CodeAnalysis.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:48.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\ja\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:44.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Microsoft.CodeAnalysis.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\it\\Microsoft.CodeAnalysis.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\it\\Microsoft.CodeAnalysis.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\it\\Microsoft.CodeAnalysis.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\it\\Microsoft.CodeAnalysis.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:44.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ExcelNumberFormat.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ExcelNumberFormat.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\ExcelNumberFormat.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\ExcelNumberFormat.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\ExcelNumberFormat.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:34.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DocumentFormat.OpenXml.Framework.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\DocumentFormat.OpenXml.Framework.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\DocumentFormat.OpenXml.Framework.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\DocumentFormat.OpenXml.Framework.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\DocumentFormat.OpenXml.Framework.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:32.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\es\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\es\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\es\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\es\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:30.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DinkToPdf.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\DinkToPdf.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\DinkToPdf.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\DinkToPdf.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\DinkToPdf.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:29.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:28.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Microsoft.CodeAnalysis.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:27.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:25.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\de\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:24.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\cs\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\cs\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\cs\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\cs\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:24.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BookXpert.API.runtimeconfig.json",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.runtimeconfig.json",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.runtimeconfig.json",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.runtimeconfig.json",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.runtimeconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T09:54:10.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BookXpert.API.exe",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.exe",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.exe",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.exe",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.exe",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
+              "WhenOpened": "2025-06-16T09:54:06.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BookXpert.API.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.dll",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.dll",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:54:04.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BookXpert.API.deps.json",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.deps.json",
+              "RelativeDocumentMoniker": "BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.deps.json",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.deps.json",
+              "RelativeToolTip": "BookXpert.API\\bin\\Debug\\net8.0\\BookXpert.API.deps.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T09:54:03.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BookXpert.BLL.dll",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\obj\\Debug\\net8.0\\BookXpert.BLL.dll",
+              "RelativeDocumentMoniker": "BookXpert.BLL\\obj\\Debug\\net8.0\\BookXpert.BLL.dll",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\obj\\Debug\\net8.0\\BookXpert.BLL.dll",
+              "RelativeToolTip": "BookXpert.BLL\\obj\\Debug\\net8.0\\BookXpert.BLL.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-06-16T09:53:41.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "react.svg",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\src\\assets\\react.svg",
+              "RelativeDocumentMoniker": "..\\..\\Frontend\\src\\assets\\react.svg",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\src\\assets\\react.svg",
+              "RelativeToolTip": "..\\..\\Frontend\\src\\assets\\react.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQESURBVDhPrZRdbJNVHMZ/b/u26xfUbqPYbd2wIKxsbGDYpk6joISJCuIHRkyMVxpDNBpjQjDRZFfeaFiI3ojGS00MshgvIEQkYyTAnJMs4yPb2Nqt27p17d5\u002B0L7v23O8WDc28JIneXK\u002B/ufJ\u002BZ/znD88SEgplXvnurq6jjc2Nn5UWkdKuRQLgBCCfD5PNpvtPnr06JFoNBpbrXAPurq6hoQQolgs/i9N0xQDAwOir69PnDhx4tdwOLxl5X7rygFAR0fHkba2tkohwdRTiNw1lMwP6DM/Y0z9AcDwhMHOljacTmfIbrfXTE5OXkskEon7BO2tbyr1za1HbuTKKm9N9rLW/A7nzPeYsbOgbEHIIGb8EtFZqNvcis/nU10u16by8vLg9evXL6bT6fSioKLgfmy/r/bF975cE6h9viVss\u002B9efxzv9BkGRrfzm/YxI2WH2da8DzE7RMZwc7F/jP7\u002BfjRNs/p8vvCFCxd\u002BSaVSMRXA0bjXW3fgw8\u002Be21nz/mvbRlw7xeckbubozR7jVugVorqTSyPTZI0xXvc3UN\u002B8kRr86LqOx\u002BNhcHBwOUsLgL/jg/a28Lq3DzVcXtuS\u002B1RZGMgzqXSSW3cQWxbchknthiquzhbpST6CsqaWysoKAoEAXq8Xq9W67AILQF3Ac/Dl\u002BqGKJuMbZa7PwNX0E9seP8ihHQHeaqokMzWLz16G4nbSl7Axl7eUziNhhbUAVICt61JPP\u002BH90ZkZdfCt8QUTf9kwzH8RUiIR5IsqFaoFm93G6GyBZFqnaq0DKQHlrkcB1KqAan\u002B36UyNLTKinLd8Jd0te5SQtLAYTUlUYtzR0XWDgmliSllalsh7PoBl4kbtgc3i97IrmcNyqGJv8cqlm1KOjiNGxigO36Y4fBsxfBslOk51YZ5ngx78HntJbPUvAlClFntjZry6cL64CyMrVbfTZmkPVSo7qt14HSpa3uDyWJJIMgdSEvS58DjUpQQW73EF1PxEvj2ZLfuzd1rdWqum6taHqpWzUznO3ppB6gaqXaXoqSBZdDEfn\u002BcFi4LNcrcELKW8BIu5oDj3HSscjk3PfX1zaDQxPpWWunsN1G5A2fQoheo64lIhHk8Qcpi81Lgeu3Xple\u002BH9dg7\u002BJ95OBm62nujpy5gMzIpo17LCPdEfIHEXIo7iXls6QUaHlL5ZNdGyt12UJRlyyiKQiQS4fTp0yc1TYtZN1RxOTbN7rB95pnqeM9goKbZtefJp\u002Br9tiJbvCqtVW72N/h5dXsVDpu6eIySXQAUi4VIJEp3d/dJTdPuL2WdnZ09QghhGEaJujD0RerLLCy3hmGIc\u002BfOiWAw2MKSsVdCSvn3qVOn2kt9pJQIIVYV2pUE0DTtH2B\u002BtdIDwn\u002B7nChdLXVvTAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-06-16T09:51:46.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\src\\App.jsx",
+              "RelativeDocumentMoniker": "..\\..\\Frontend\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\src\\App.jsx",
+              "RelativeToolTip": "..\\..\\Frontend\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-16T09:51:45.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\src\\App.css",
+              "RelativeDocumentMoniker": "..\\..\\Frontend\\src\\App.css",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\src\\App.css",
+              "RelativeToolTip": "..\\..\\Frontend\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-16T09:51:44.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\README.md",
+              "RelativeDocumentMoniker": "..\\..\\Frontend\\README.md",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Frontend\\README.md",
+              "RelativeToolTip": "..\\..\\Frontend\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-06-16T09:51:43.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EmployeeSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\Models\\EmployeeSummaryDto.cs",
+              "RelativeDocumentMoniker": "BookXpert.DAL\\Models\\EmployeeSummaryDto.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\Models\\EmployeeSummaryDto.cs",
+              "RelativeToolTip": "BookXpert.DAL\\Models\\EmployeeSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:02:09.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CustomAssemblyLoadContext .cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\CustomAssemblyLoadContext .cs",
+              "RelativeDocumentMoniker": "BookXpert.API\\CustomAssemblyLoadContext .cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\CustomAssemblyLoadContext .cs",
+              "RelativeToolTip": "BookXpert.API\\CustomAssemblyLoadContext .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T08:52:43.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\appsettings.json",
+              "RelativeDocumentMoniker": "BookXpert.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\appsettings.json",
+              "RelativeToolTip": "BookXpert.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T12:37:35.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\Program.cs",
+              "RelativeDocumentMoniker": "BookXpert.API\\Program.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\Program.cs",
+              "RelativeToolTip": "BookXpert.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:31:56.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "BookXpert.API\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "BookXpert.API\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAIwGAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:30:50.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "BookXpert.BLL\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "BookXpert.BLL\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:28:55.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "BookXpert.BLL\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "BookXpert.BLL\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:27:46.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "BookXpert.DAL\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\Models\\Employee.cs",
+              "RelativeToolTip": "BookXpert.DAL\\Models\\Employee.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwCMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:22:30.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BookXpert.API.csproj",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\BookXpert.API.csproj",
+              "RelativeDocumentMoniker": "BookXpert.API\\BookXpert.API.csproj",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\BookXpert.API.csproj",
+              "RelativeToolTip": "BookXpert.API\\BookXpert.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-12T09:25:58.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20250612125700_Init.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\Migrations\\20250612125700_Init.cs",
+              "RelativeDocumentMoniker": "BookXpert.DAL\\Migrations\\20250612125700_Init.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\Migrations\\20250612125700_Init.cs",
+              "RelativeToolTip": "BookXpert.DAL\\Migrations\\20250612125700_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T12:57:01.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "StateService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\Services\\StateService.cs",
+              "RelativeDocumentMoniker": "BookXpert.BLL\\Services\\StateService.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\Services\\StateService.cs",
+              "RelativeToolTip": "BookXpert.BLL\\Services\\StateService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:36:54.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IStateService.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\Interfaces\\IStateService.cs",
+              "RelativeDocumentMoniker": "BookXpert.BLL\\Interfaces\\IStateService.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\Interfaces\\IStateService.cs",
+              "RelativeToolTip": "BookXpert.BLL\\Interfaces\\IStateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:36:11.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "StatesController.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\Controllers\\StatesController.cs",
+              "RelativeDocumentMoniker": "BookXpert.API\\Controllers\\StatesController.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.API\\Controllers\\StatesController.cs",
+              "RelativeToolTip": "BookXpert.API\\Controllers\\StatesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:38:21.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "BookXpert.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\BookXpert.BLL.csproj",
+              "RelativeDocumentMoniker": "BookXpert.BLL\\BookXpert.BLL.csproj",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.BLL\\BookXpert.BLL.csproj",
+              "RelativeToolTip": "BookXpert.BLL\\BookXpert.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-12T11:25:35.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BookXpert.DAL\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BookXpert.DAL\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:24:39.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\Models\\State.cs",
+              "RelativeDocumentMoniker": "BookXpert.DAL\\Models\\State.cs",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\Models\\State.cs",
+              "RelativeToolTip": "BookXpert.DAL\\Models\\State.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:23:48.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "BookXpert.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\BookXpert.DAL.csproj",
+              "RelativeDocumentMoniker": "BookXpert.DAL\\BookXpert.DAL.csproj",
+              "ToolTip": "C:\\Users\\sahil_puri\\Documents\\repo\\Bookxpert-employee\\BookXpert-EmployeeApp\\Backend\\BookXpertSolution\\BookXpert.DAL\\BookXpert.DAL.csproj",
+              "RelativeToolTip": "BookXpert.DAL\\BookXpert.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-12T11:19:31.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\BookXpert.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\BookXpert.DAL.AssemblyInfoInputs.cache
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\BookXpert.DAL.AssemblyInfo.cs
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\BookXpert.DAL.csproj.CoreCompileInputs.cache
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\BookXpert.DAL.sourcelink.json
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\bin\Debug\net8.0\BookXpert.DAL.deps.json
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\bin\Debug\net8.0\BookXpert.DAL.runtimeconfig.json
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\bin\Debug\net8.0\BookXpert.DAL.dll
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\bin\Debug\net8.0\BookXpert.DAL.pdb
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\BookXpert.DAL.csproj.AssemblyReference.cache
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\BookXpert.DAL.dll
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\refint\BookXpert.DAL.dll
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\BookXpert.DAL.pdb
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\BookXpert.DAL.genruntimeconfig.cache
+C:\Users\sahil_puri\Documents\repo\Bookxpert-employee\BookXpert-EmployeeApp\Backend\BookXpertSolution\BookXpert.DAL\obj\Debug\net8.0\ref\BookXpert.DAL.dll
