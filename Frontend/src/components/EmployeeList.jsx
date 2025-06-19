@@ -1,66 +1,88 @@
 import React, { useState } from 'react';
 
 function EmployeeList({ employees, setSelectedEmployee, setShowModal, onDeleted }) {
-  const [status, setStatus] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 5;
+  const employeesPerPage = 5;
 
-  const totalPages = Math.ceil(employees.length / pageSize);
-  const paginatedEmployees = employees.slice(
-    (currentPage - 1) * pageSize,
-    currentPage * pageSize
-  );
+  const handleEdit = (emp) => {
+    setSelectedEmployee(emp);
+    setShowModal(true);
+  };
 
   const handleDelete = async (id) => {
     if (!window.confirm("Are you sure you want to delete this employee?")) return;
 
-    const response = await fetch(`https://localhost:7076/api/employees/${id}`, {
-      method: 'DELETE'
-    });
+    try {
+      const res = await fetch(`https://localhost:7076/api/employees/${id}`, {
+        method: 'DELETE'
+      });
 
-    if (response.ok) {
-      setStatus("✅ Employee deleted");
-      if (onDeleted) onDeleted();
-    } else {
-      setStatus("❌ Failed to delete employee");
+      if (res.ok) {
+        onDeleted(); // reload employee list
+      } else {
+        alert("❌ Failed to delete employee.");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("❌ Error connecting to the server.");
     }
   };
 
-  return (
-    <div style={{ marginTop: '40px' }}>
-      <h2>Employee List</h2>
-      {status && <p style={{ color: 'red' }}>{status}</p>}
+  // Pagination logic
+  const indexOfLast = currentPage * employeesPerPage;
+  const indexOfFirst = indexOfLast - employeesPerPage;
+  const currentEmployees = employees.slice(indexOfFirst, indexOfLast);
+  const totalPages = Math.ceil(employees.length / employeesPerPage);
 
-      <table border="1" cellPadding="6">
+  return (
+    <div>
+      <h3>Employee List</h3>
+
+      {/* Export buttons */}
+      <div style={{ marginBottom: '10px' }}>
+        <button onClick={() => window.open('https://localhost:7076/api/employees/export/excel', '_blank')}>
+          📄 Export to Excel
+        </button>
+        <button onClick={() => window.open('https://localhost:7076/api/employees/export/pdf', '_blank')}>
+          🧾 Export to PDF
+        </button>
+      </div>
+
+      {/* Table */}
+      <table border="1" cellPadding="8" style={{ width: '100%', marginTop: '10px' }}>
         <thead>
           <tr>
             <th>Name</th>
             <th>Designation</th>
+            <th>Date of Join</th>
             <th>Salary</th>
             <th>Gender</th>
-            <th>Date of Birth</th>
+            <th>DOB</th>
             <th>State</th>
             <th>Actions</th>
           </tr>
         </thead>
         <tbody>
-          {paginatedEmployees.length === 0 ? (
-            <tr><td colSpan="7">No employees found</td></tr>
+          {currentEmployees.length === 0 ? (
+            <tr><td colSpan="8">No employees found.</td></tr>
           ) : (
-            paginatedEmployees.map(emp => (
+            currentEmployees.map(emp => (
               <tr key={emp.employeeId}>
-                <td>{emp.name}</td>
+                <td
+                  style={{ cursor: 'pointer', color: 'blue' }}
+                  onClick={() => handleEdit(emp)}
+                >
+                  {emp.name}
+                </td>
                 <td>{emp.designation}</td>
+                <td>{emp.dateOfJoin?.split('T')[0]}</td>
                 <td>{emp.salary}</td>
                 <td>{emp.gender}</td>
                 <td>{emp.dob?.split('T')[0]}</td>
-                <td>{emp.state?.name || 'N/A'}</td>
+                <td>{emp.stateName ?? 'N/A'}</td>
                 <td>
+                  <button onClick={() => handleEdit(emp)}>Edit</button>
                   <button onClick={() => handleDelete(emp.employeeId)}>Delete</button>
-                  <button onClick={() => {
-                    setSelectedEmployee(emp);
-                    setShowModal(true);
-                  }}>Edit</button>
                 </td>
               </tr>
             ))
@@ -68,23 +90,14 @@ function EmployeeList({ employees, setSelectedEmployee, setShowModal, onDeleted 
         </tbody>
       </table>
 
-      {/* Pagination Controls */}
-      <div style={{ marginTop: '15px' }}>
-        <button onClick={() => setCurrentPage(p => Math.max(p - 1, 1))} disabled={currentPage === 1}>⬅ Prev</button>
-        <span style={{ margin: '0 10px' }}>Page {currentPage} of {totalPages}</span>
-        <button onClick={() => setCurrentPage(p => Math.min(p + 1, totalPages))} disabled={currentPage === totalPages}>Next ➡</button>
-      </div>
-      <button
-  onClick={() => window.open('https://localhost:7076/api/employees/export/pdf')}
-  style={{ marginBottom: '10px' }}
->
-  📄 Export to PDF
-</button>
-<button onClick={() => window.open("https://localhost:7076/api/employees/export/excel")}>
-  📥 Export to Excel
-</button>
-
-
+      {/* Pagination controls */}
+      {totalPages > 1 && (
+        <div style={{ marginTop: '10px' }}>
+          <button disabled={currentPage === 1} onClick={() => setCurrentPage(prev => prev - 1)}>Previous</button>
+          <span style={{ margin: '0 10px' }}>Page {currentPage} of {totalPages}</span>
+          <button disabled={currentPage === totalPages} onClick={() => setCurrentPage(prev => prev + 1)}>Next</button>
+        </div>
+      )}
     </div>
   );
 }

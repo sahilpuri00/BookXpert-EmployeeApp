@@ -1,5 +1,6 @@
 ﻿using BookXpert.BLL.Interfaces;
 using BookXpert.DAL.Models;
+using ClosedXML.Excel;
 using DinkToPdf;
 using DinkToPdf.Contracts;
 using Microsoft.AspNetCore.Authorization;
@@ -16,19 +17,22 @@ namespace BookXpert.API.Controllers
 
         public EmployeesController(IEmployeeService employeeService, IConverter converter)
         {
-            _converter = converter;
             _employeeService = employeeService;
+            _converter = converter;
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Employee>> Get() => await _employeeService.GetAllAsync();
+        public async Task<IActionResult> Get()
+        {
+            var employees = await _employeeService.GetAllAsync();
+            return Ok(employees);
+        }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Employee>> Get(int id)
         {
             var emp = await _employeeService.GetByIdAsync(id);
-            if (emp == null) return NotFound();
-            return emp;
+            return emp == null ? NotFound() : emp;
         }
 
         [HttpPost]
@@ -45,12 +49,8 @@ namespace BookXpert.API.Controllers
                 return BadRequest("ID mismatch");
 
             var updated = await _employeeService.UpdateAsync(emp);
-            if (!updated)
-                return NotFound();
-
-            return Ok();
+            return updated ? Ok() : NotFound();
         }
-
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
@@ -73,34 +73,26 @@ namespace BookXpert.API.Controllers
                     DocumentTitle = "Employee Report"
                 },
                 Objects = {
-            new ObjectSettings
-            {
-                HtmlContent = html,
-                WebSettings = { DefaultEncoding = "utf-8" }
-            }
-        }
+                    new ObjectSettings
+                    {
+                        HtmlContent = html,
+                        WebSettings = { DefaultEncoding = "utf-8" }
+                    }
+                }
             };
 
             var pdfBytes = _converter.Convert(pdf);
             return File(pdfBytes, "application/pdf", "EmployeeReport.pdf");
         }
 
-        [HttpGet("summary")]
-        public async Task<IActionResult> GetSummary()
-        {
-            var summary = await _employeeService.GetEmployeeSummaryAsync();
-            return Ok(summary);
-        }
-
         [HttpGet("export/excel")]
         public async Task<IActionResult> ExportEmployeesToExcel()
         {
-            var employees = (await _employeeService.GetAllAsync()).ToList(); // This should return a List<Employee> including State
+            var employees = (await _employeeService.GetAllAsync()).ToList();
 
-            using var workbook = new ClosedXML.Excel.XLWorkbook();
+            using var workbook = new XLWorkbook();
             var worksheet = workbook.Worksheets.Add("Employees");
 
-            // Add headers
             worksheet.Cell(1, 1).Value = "Name";
             worksheet.Cell(1, 2).Value = "Designation";
             worksheet.Cell(1, 3).Value = "Salary";
@@ -108,8 +100,7 @@ namespace BookXpert.API.Controllers
             worksheet.Cell(1, 5).Value = "Date of Birth";
             worksheet.Cell(1, 6).Value = "State";
 
-            // Add data
-            for (int i = 0; i < employees.Count(); i++)
+            for (int i = 0; i < employees.Count; i++)
             {
                 var row = i + 2;
                 worksheet.Cell(row, 1).Value = employees[i].Name;
@@ -117,7 +108,7 @@ namespace BookXpert.API.Controllers
                 worksheet.Cell(row, 3).Value = employees[i].Salary;
                 worksheet.Cell(row, 4).Value = employees[i].Gender;
                 worksheet.Cell(row, 5).Value = employees[i].DOB.ToShortDateString();
-                worksheet.Cell(row, 6).Value = employees[i].State?.Name ?? "N/A";
+                worksheet.Cell(row, 6).Value = employees[i].StateName;
             }
 
             using var stream = new MemoryStream();
@@ -127,6 +118,13 @@ namespace BookXpert.API.Controllers
             return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "EmployeeReport.xlsx");
         }
 
+        [HttpGet("summary")]
+        public async Task<IActionResult> GetSummary()
+        {
+            var summary = await _employeeService.GetEmployeeSummaryAsync();
+            return Ok(summary);
+        }
     }
+
 
 }

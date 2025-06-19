@@ -19,9 +19,26 @@ namespace BookXpert.BLL.Services
             _context = context;
         }
 
-        public async Task<IEnumerable<Employee>> GetAllAsync()
+        public async Task<IEnumerable<EmployeeDto>> GetAllAsync()
         {
-            return await _context.Employees.Include(e => e.State).ToListAsync();
+            var employees = await _context.Employees
+                .Include(e => e.State)
+                .ToListAsync();
+
+            var employeeDtos = employees.Select(e => new EmployeeDto
+            {
+                EmployeeId = e.EmployeeId,
+                Name = e.Name,
+                Designation = e.Designation,
+                DateOfJoin = e.DateOfJoin,
+                Salary = e.Salary,
+                Gender = e.Gender,
+                DOB = e.DOB,
+                StateId = e.StateId,
+                StateName = e.State?.Name ?? "N/A"
+            });
+
+            return employeeDtos;
         }
 
         public async Task<Employee> GetByIdAsync(int id)

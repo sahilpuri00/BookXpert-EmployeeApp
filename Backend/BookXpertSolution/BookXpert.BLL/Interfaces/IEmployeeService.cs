@@ -9,7 +9,7 @@ namespace BookXpert.BLL.Interfaces
 {
     public interface IEmployeeService
     {
-        Task<IEnumerable<Employee>> GetAllAsync();
+        Task<IEnumerable<EmployeeDto>> GetAllAsync();
         Task<Employee> GetByIdAsync(int id);
         Task AddAsync(Employee emp);
         Task<bool> UpdateAsync(Employee emp);

@@ -9,6 +9,7 @@ function EmployeeForm({ selectedEmployee, setSelectedEmployee, closeModal, onSav
     salary: '',
     gender: '',
     dob: '',
+    age: '',
     stateId: ''
   });
   const [errors, setErrors] = useState({});
@@ -23,23 +24,43 @@ function EmployeeForm({ selectedEmployee, setSelectedEmployee, closeModal, onSav
 
   useEffect(() => {
     if (selectedEmployee) {
+      const dobDate = selectedEmployee.dob?.split('T')[0];
+      const age = calculateAge(dobDate);
+
       setFormData({
         name: selectedEmployee.name,
         designation: selectedEmployee.designation,
         dateOfJoin: selectedEmployee.dateOfJoin?.split('T')[0],
         salary: selectedEmployee.salary,
         gender: selectedEmployee.gender,
-        dob: selectedEmployee.dob?.split('T')[0],
+        dob: dobDate,
+        age,
         stateId: selectedEmployee.stateId
       });
     }
   }, [selectedEmployee]);
 
+  const calculateAge = (dob) => {
+    if (!dob) return '';
+    const birthDate = new Date(dob);
+    const today = new Date();
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age >= 0 ? age : '';
+  };
+
   const handleChange = (e) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
+    const { name, value } = e.target;
+    let updated = { ...formData, [name]: value };
+
+    if (name === 'dob') {
+      updated.age = calculateAge(value);
+    }
+
+    setFormData(updated);
   };
 
   const handleSubmit = async (e) => {
@@ -71,25 +92,26 @@ function EmployeeForm({ selectedEmployee, setSelectedEmployee, closeModal, onSav
 
     const method = selectedEmployee ? 'PUT' : 'POST';
 
-    const response = await fetch(url, {
-      method,
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    });
-
-    if (response.ok) {
-      setStatus("✅ Saved successfully");
-      if (onSaved) onSaved();                             // <-- Refresh list
-      if (setSelectedEmployee) setSelectedEmployee(null); // <-- Clear editing
-      if (closeModal) closeModal();                       // <-- Close modal
-      setFormData({
-        name: '', designation: '', dateOfJoin: '',
-        salary: '', gender: '', dob: '', stateId: ''
+    try {
+      const response = await fetch(url, {
+        method,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
       });
-    } else {
-      const errorText = await response.text();
-      console.error("Server error:", errorText);
-      setStatus(`❌ Error saving employee: ${response.statusText}`);
+
+      if (response.ok) {
+        setStatus("✅ Saved successfully");
+        if (setSelectedEmployee) setSelectedEmployee(null);
+        if (closeModal) closeModal();
+        if (onSaved) onSaved();
+      } else {
+        const err = await response.text();
+        console.error("Server error:", err);
+        setStatus(`❌ Error saving employee: ${response.statusText}`);
+      }
+    } catch (err) {
+      console.error(err);
+      setStatus("❌ Failed to connect to server");
     }
   };
 
@@ -116,17 +138,19 @@ function EmployeeForm({ selectedEmployee, setSelectedEmployee, closeModal, onSav
         </div>
 
         <div>
-          <select name="gender" value={formData.gender} onChange={handleChange}>
-            <option value="">Select Gender</option>
-            <option>Male</option>
-            <option>Female</option>
-          </select>
+          Gender:
+          <label><input type="radio" name="gender" value="Male" checked={formData.gender === 'Male'} onChange={handleChange} /> Male</label>
+          <label><input type="radio" name="gender" value="Female" checked={formData.gender === 'Female'} onChange={handleChange} /> Female</label>
           {errors.gender && <span style={{ color: 'red' }}>{errors.gender}</span>}
         </div>
 
         <div>
           <input name="dob" type="date" value={formData.dob} onChange={handleChange} />
           {errors.dob && <span style={{ color: 'red' }}>{errors.dob}</span>}
+        </div>
+
+        <div>
+          <label>Age: {formData.age}</label>
         </div>
 
         <div>
